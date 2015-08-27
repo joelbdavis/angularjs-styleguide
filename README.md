@@ -1465,7 +1465,6 @@ CoreReactorChannel.onElevatedCoreTemperature($scope, onCoreTemperatureChange);
 
     Note: Another option is to override the service instead of using a decorator. This is a fine option, but if you want to keep the default behavior and extend it a decorator is recommended.
 
-```javascript
 /* recommended */
     angular
         .module('blocks.exception')
